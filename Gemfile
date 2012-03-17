@@ -7,7 +7,7 @@ gem 'rails', '3.2.2'
 
 gem 'pg'
 
-gem 'factory_scenarios', git: 'git://github.com/collin/factory_scenarios'
+gem 'factory_scenarios'
 gem 'factory_girl'
 gem 'devise'
 gem 'faker'
