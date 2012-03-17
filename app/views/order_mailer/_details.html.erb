@@ -1,0 +1,14 @@
+<hr />
+<h4>Grand Total: <span><%= number_to_currency @order.total %></span></h4>
+
+<ul>
+  <% @order.line_items.each do |item| %>
+  <li>
+    <em><%= item.name %></em>
+    <br />
+    <strong>
+      <%= item.quantity %> @ <%= number_to_currency item.dollar_price %> = <%= number_to_currency item.total %>
+    </strong>
+  </li>
+  <% end %>
+</ul>

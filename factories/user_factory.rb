@@ -5,6 +5,7 @@ FactoryGirl.define do
     password_confirmation "test1234"
     confirmation_sent_at { 2.hours.ago }
     confirmed_at { 1.hour.ago }
+    name { Faker::Name.name }
   end
 
   factory :recoverable_user, parent: :user do

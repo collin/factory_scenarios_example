@@ -1,17 +1,18 @@
-class Order 
-  include ActiveModel
+class Order < ApplicationModel
 
   attr_accessor :user
+  attr_accessor :line_items
 
   delegate :email, to: 'user'
+  delegate :name, to: 'user'
 
-  def initialize(attributes = {})
-    attributes.each do |name, value|
-      send("#{name}=", value)
-    end
+  def initialize(attributes={})
+    attributes[:line_items] ||= []
+    super    
   end
 
-  def save!
-    true
+  def total
+    line_items.map(&:total).sum
   end
+
 end

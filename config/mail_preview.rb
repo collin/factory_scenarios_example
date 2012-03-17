@@ -3,7 +3,7 @@ FactoryScenarios::Mail.registrations do
   register "Order Confirmation" do
     mailer OrderMailer
     message :confirmation
-    message_args { Factory.create(:order) }
+    message_args { Factory.create(:big_order) }
   end
 
   register "Shipping Confirmation" do
