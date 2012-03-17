@@ -1,0 +1,274 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<title>duoh!-Email-Template-1-left-column</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<style type="text/css">
+body, div.outer{padding: 0px;margin: 0px;background-image: url(images/bg_body.gif);background-repeat: repeat-y no-repeat;background-position: top center;background-color: #3d4852;}
+a:link, a:visited{color: #fd4d53;text-decoration: underline;}
+a:hover, a:active{color: #3994b5;text-decoration: underline;}
+td.date{background-image: url(images/header_mbg.gif);background-repeat: repeat-y no-repeat;background-position: top center;background-color: #f2f8fa;}
+img{display: block;padding: 0;border: 0 none;margin: 0;}
+img.inline{display: inline;vertical-align: middle;}
+.texttopbottom p{font-family: Verdana, Arial;color: #8d9ca4;font-size: 10px;margin: 0; text-align:center;}
+p.month{color: #4dc8da;font-family: Arial, Helvetica;font-size: 12px;line-height: 12px;margin: 0;padding: 0;text-transform: uppercase;}
+p.year{color: #b4ebf3;font-family: 'Arial Black', Arial, Helvetica;font-size: 18px;line-height: 18px;margin: 0;padding: 0;}
+h1{color: #ffffff;font-family: 'Arial Black', Arial, Helvetica;font-size: 48px;line-height: 39px;margin: 0;padding: 0;text-shadow: 0px 0px 1px #1b5362;}
+.whitecol h2{color: #3994b5 !important;font-family: Arial, Helvetica;text-align: left;font-weight: normal;font-size: 22px;line-height: 25px;margin: 0 0 18px 0;}
+.whitecol h3{color: #648d97 !important;font-family: Arial, Helvetica;text-align: left;font-weight: bold;font-size: 12px;margin: 0 0 6px 0;padding: 6px 0 0 0;}
+.whitecol p{color: #4b5863;font-family: Verdana, Arial;text-align: left;font-size: 11px;line-height: 18px;margin: 0 0 8px 0;}
+.whitecol ul, .whitecol ol{padding: 0;margin: 20px 0 10px 20px;}
+.whitecol ul{list-style-image: url(images/bullet_white.gif);}
+.whitecol ol{padding: 0;margin: 20px 0 10px 20px;}
+.whitecol ul li, .whitecol ol li{color: #4b5863;font-family: Verdana, Arial;font-size: 11px;line-height: 18px;padding: 3px 0 10px 0;border-top: 1px dotted #9c9c93;}
+.bluecol h2{color: #82867b !important;font-family: 'Arial Black', Arial, Helvetica;text-align: left;text-transform: uppercase;font-size: 11px;line-height: 30px;margin: 0;}
+.bluecol h3{color: #648d97 !important;font-family: Arial, Helvetica;text-align: left;font-weight: bold;font-size: 12px;margin: 0 0 6px 0;padding: 6px 0 0 0;}
+.bluecol p{color: #636c6a;font-family: Verdana, Arial;text-align: left;font-size: 11px;line-height: 18px;margin: 0 0 8px 0;}
+.bluecol ul li, .bluecol ol li{color: #636c6a;font-family: Verdana, Arial;font-size: 11px;line-height: 18px;}
+.bluecol a:link, .bluecol a:visited{color: #fe494f;text-decoration: none;}
+.bluecol a:hover, .bluecol a:active{color: #fe494f;text-decoration: underline;}
+.bluecol table.thisissue td{border-bottom: 1px dotted #9c9c93;}
+.bluecol table.thisissue td{color: #636c6a;font-family: Verdana, Arial;font-size: 11px;padding: 5px 0 5px 0}
+.bluecol table.thisissue a:link, .bluecol table.thisissue a:visited{color: #636c6a;text-decoration: none;}
+.bluecol table.thisissue a:hover, .bluecol table.thisissue a:active{color: #fe494f;text-decoration: underline;}
+.border{border-bottom: 1px dotted #9c9c93; padding-bottom:15px;}
+.backtotop{font-size: 11px;line-height: 24px;}
+.backtotop a{background: url(images/backtotop.gif) top right no-repeat;padding: 0 17px 0 0;font-family: Verdana, Arial;}
+.backtotop a:link, .backtotop a:visited{color: #92afb6;text-decoration: none;}
+.backtotop a:hover, .backtotop a:active{color: #fd4d53;text-decoration: none;background-position: bottom right;}
+.mb-editor-button{display: inline;}
+</style>
+</head>
+<body>
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+  <tr>
+    <td valign="top" align="center" id="top" class="outer" bgcolor="#3d4852" background="images/bg_body.gif">
+      <table class="texttopbottom" cellpadding="0" cellspacing="0" align="center" width="600">
+        <tr>
+          <td valign="top"><img src="<%= image_path('images/blank.gif') -%>" width="1" height="8" alt="" /></td>
+        </tr>
+        <tr>
+          <td align="center" valign="top" colspan="3" style="font-family: Verdana, Arial, sans-serif; color: #8d9ca4;font-size: 10px;margin: 0;">
+            <p>You are receiving this newsletter because ...</p>
+            <p>Having trouble reading this email? <webversion>View it in your browser</webversion>. <unsubscribe>Unsubscribe Instantly</unsubscribe>.</p>
+          </td>
+        </tr>
+        <tr>
+          <td style="background: url(<%= image_path('images/bg_top.png') -%>) no-repeat;"><img src="<%= image_path('images/blank.gif') -%>" width="1" height="12" alt="" /></td>
+        </tr>
+      </table>
+      <table cellpadding="0" cellspacing="0" align="center" width="600" style="background: url(<%= image_path('images/bg_email_leftcol.png') -%>) repeat-y;">
+        <tr>
+          <td rowspan="4" valign="top"><img src="<%= image_path('images/blank.gif') -%>" width="15" height="1" alt="" /></td>
+          <td rowspan="4" valign="top"><img src="<%= image_path('images/header_strip.gif') -%>" alt="" width="20" height="249" /></td>
+          <td rowspan="3" valign="top"><img src="<%= image_path('images/header_l.gif') -%>" alt="" width="405" height="184" /></td>
+          <td bgcolor="#fbfdfd" colspan="2" width="100" height="26"><img src="<%= image_path('images/blank.gif') -%>" width="100" height="26" alt="" /></td>
+          <td rowspan="4" valign="top"><img src="<%= image_path('images/header_r.gif') -%>" alt="" width="45" height="249" /></td>
+          <td rowspan="4" valign="top"><img src="<%= image_path('images/blank.gif') -%>" width="15" height="1" alt="" /></td>
+        </tr>
+        <tr>
+          <td valign="top"><img src="<%= image_path('images/header_mbsbg.gif') -%>" width="16" height="79" alt="" /></td>
+          <td valign="top" width="84" align="left" class="date" height="79">
+            <p class="month"><currentmonthname></p>
+            <p class="year"><currentyear></p>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2"><img src="<%= image_path('images/header_m.gif') -%>" alt="" width="100" height="79" /></td>
+        </tr>
+        <tr>
+          <td style="background: url(<%= image_path('images/bg_title.gif') -%>) no-repeat;" valign="bottom" colspan="3" height="65" align="left">
+            <h1>
+                          ABC WIDGETS
+                        </h1>
+          </td>
+        </tr>
+        
+
+        <tr>
+          <td colspan="7" align="left">
+            <table cellpadding="0" cellspacing="0" width="600" align="left">
+              <tr>
+                <td colspan="2"><img src="<%= image_path('images/topbot_leftcol.gif') -%>" width="600" height="14" alt="" /></td>
+              </tr>
+              <tr>
+                <td valign="top" width="210">
+                  <table cellpadding="0" cellspacing="0" width="210" class="bluecol">
+                    <tr>
+                      <td valign="top" width="15" rowspan="2"><img src="<%= image_path('images/title_leftcol_red1.gif') -%>" alt="" width="15" height="36" /></td>
+                      <td bgcolor="#d3e7eb" valign="top" width="20" rowspan="2"><img src="<%= image_path('images/title_red2.gif') -%>" alt="" width="20" height="36" /></td>
+                      <td bgcolor="#d3e7eb" valign="bottom" width="175"><h2>In this issue</h2></td>
+                    </tr>
+                    <tr>
+                      <td bgcolor="#d3e7eb" valign="top">
+                        <table cellpadding="0" cellspacing="0" width="175" class="thisissue">
+
+                          <tr>
+                            <td style="padding-bottom:10px" width="11" valign="top"><img src="<%= image_path('images/bullet_blue.gif') -%>" alt="" width="11" height="12" /></td>
+                            <td width="159" valign="top">A small river named Duden flows by their place and supplies</td>
+                          </tr>
+                          <tr>
+                            <td style="padding-bottom:10px" width="11" valign="top"><img src="<%= image_path('images/bullet_blue.gif') -%>" alt="" width="11" height="12" /></td>
+                            <td width="159" valign="top">Vokalia and Consonantia, there live the </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  
+                  <table cellpadding="0" cellspacing="0" width="210" class="bluecol">
+                    <tr>
+                      <td valign="top" width="15" rowspan="2"><img src="<%= image_path('images/title_leftcol_red1.gif') -%>" alt="" width="15" height="36" /></td>
+                      <td bgcolor="#d3e7eb" valign="top" width="20" rowspan="2"><img src="<%= image_path('images/title_red2.gif') -%>" alt="" width="20" height="36" /></td>
+                      <td bgcolor="#d3e7eb" valign="bottom" width="175">
+                                              <h2>                                                In other news
+                                                </h2>
+                                            </td>
+                    </tr>
+                    <tr>
+                      <td bgcolor="#d3e7eb" valign="top" class="border">
+
+                          <h3>Lorem Ipsum</h3>
+                          <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas</p>
+
+                      </td>
+                    </tr>
+                  </table>
+                  
+                  <table cellpadding="0" cellspacing="0" width="210" class="bluecol">
+                    <tr>
+                      <td valign="top" width="15" rowspan="2">
+                                              <img src="<%= image_path('images/title_leftcol_red1.gif') -%>" alt="" width="15" height="36" />
+                                            </td>
+                      <td bgcolor="#d3e7eb" valign="top" width="20" rowspan="2">
+                                              <img src="<%= image_path('images/title_red2.gif') -%>" alt="" width="20" height="36" />
+                                            </td>
+                      <td bgcolor="#d3e7eb" valign="bottom" width="175">
+                                              <h2>
+                                                  Forward this email
+                                                </h2>
+                                            </td>
+                    </tr>
+                    <tr>
+                      <td bgcolor="#d3e7eb" valign="top" class="border">
+                        <p>Do you know someone who might be interested in receiving this monthly newsletter?</p>
+                        <p><forwardtoafriend><img class="inline" src="<%= image_path('images/forward.gif') -%>" alt="" width="11" height="12" /> forward this email</forwardtoafriend></p>
+                      </td>
+                    </tr>
+                  </table>
+                  
+                  <table cellpadding="0" cellspacing="0" width="210" class="bluecol">
+                    <tr>
+                      <td valign="top" width="15" rowspan="2"><img src="<%= image_path('images/title_leftcol_red1.gif') -%>" alt="" width="15" height="36" /></td>
+                      <td bgcolor="#d3e7eb" valign="top" width="20" rowspan="2"><img src="<%= image_path('images/title_red2.gif') -%>" alt="" width="20" height="36" /></td>
+                      <td bgcolor="#d3e7eb" valign="bottom" width="175"><h2>Contact Us</h2></td>
+                    </tr>
+                    <tr>
+                      <td bgcolor="#d3e7eb" valign="top" class="border">
+                        <p>123 Some Street,<br />
+                                                San Francisco<br />CA 94105<br />
+                                                ph +1 4 1477 89 745
+                                                </p>
+                        <p><a href=""><img class="inline" src="<%= image_path('images/email.gif') -%>" alt="" width="17" height="8" /> email us</a></p>
+                      </td>
+                    </tr>
+                  </table>
+                  
+                  <table cellpadding="0" cellspacing="0" width="210" class="bluecol">
+                    <tr>
+                      <td valign="top" width="15" rowspan="2"><img src="<%= image_path('images/title_leftcol_red1.gif') -%>" alt="" width="15" height="36" /></td>
+                      <td bgcolor="#d3e7eb" valign="top" width="20" rowspan="2"><img src="<%= image_path('images/title_red2.gif') -%>" alt="" width="20" height="36" /></td>
+                      <td bgcolor="#d3e7eb" valign="bottom" width="175"><h2>Unsubscribe</h2></td>
+                    </tr>
+                    <tr>
+                      <td bgcolor="#d3e7eb" valign="top" class="border">
+                        <p>You’re receiving this newsletter because you signed up for the Abc Widget Newsletter?</p>
+                        <p><unsubscribe><img class="inline" src="<%= image_path('images/unsub.gif') -%>" alt="" width="13" height="10" /> unsubscribe now</unsubscribe></p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td valign="top" width="390">
+                  <table cellpadding="0" cellspacing="0" width="390" class="whitecol">
+                    <tr>
+                      <td bgcolor="#d3e7eb" valign="top" width="15" rowspan="3"><img src="<%= image_path('images/title_leftcol_blue1.gif') -%>" alt="" width="15" height="56" /></td>
+                      <td bgcolor="#eaf4f7" valign="top" width="21" rowspan="3"><img src="<%= image_path('images/title_blue2.gif') -%>" alt="" width="21" height="56" /></td>
+                      <td bgcolor="#eaf4f7"><img src="<%= image_path('images/blank.gif') -%>" alt="" width="1" height="20" /></td>
+                      <td bgcolor="#eaf4f7" rowspan="4"><img src="<%= image_path('images/blank.gif') -%>" alt="" width="20" height="1" /></td>
+                      <td rowspan="4"><img src="<%= image_path('images/blank.gif') -%>" alt="" width="15" height="1" /></td>
+                    </tr>
+                    <tr>                      
+                      <td bgcolor="#eaf4f7" valign="top" width="319"><h2>A small river named Duden flows by their place and supplies</h2></td>
+                    </tr>
+                    <tr>
+                      <td bgcolor="#eaf4f7" valign="top" class="border">
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.</p><ul><li>Bullet Point 1</li></ul>
+                                              
+                        <img src="<$imagesrc$>" alt="" width="319" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td bgcolor="#d3e7eb" valign="top" width="15">&nbsp;</td>
+                      <td bgcolor="#eaf4f7" colspan="2" valign="top" align="right" class="backtotop"><a href="#top">Back to top</a></td>
+                    </tr>
+                                        
+                    <tr>
+                      <td bgcolor="#d3e7eb" valign="top" width="15" rowspan="3"><img src="<%= image_path('images/title_leftcol_blue1.gif') -%>" alt="" width="15" height="56" /></td>
+                      <td bgcolor="#eaf4f7" valign="top" width="21" rowspan="3"><img src="<%= image_path('images/title_blue2.gif') -%>" alt="" width="21" height="56" /></td>
+                      <td bgcolor="#eaf4f7"><img src="<%= image_path('images/blank.gif') -%>" alt="" width="1" height="20" /></td>
+                      <td bgcolor="#eaf4f7" rowspan="4"><img src="<%= image_path('images/blank.gif') -%>" alt="" width="20" height="1" /></td>
+                      <td rowspan="4"><img src="<%= image_path('images/blank.gif') -%>" alt="" width="15" height="1" /></td>
+                    </tr>
+                    <tr>                      
+                      <td bgcolor="#eaf4f7" valign="top" width="319"><h2>Vokalia and Consonantia, there live the </h2></td>
+                    </tr>
+                    <tr>
+                      <td bgcolor="#eaf4f7" valign="top" class="border">
+                        <p>A wonderful serenity has taken <a href="#">possession</a> of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.</p><ul><li>Bullet Point 1</li></ul>
+                                              
+                        <img src="<$imagesrc$>" alt="" width="319" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td bgcolor="#d3e7eb" valign="top" width="15">&nbsp;</td>
+                      <td bgcolor="#eaf4f7" colspan=<"2" valign="top" align="right" class="backtotop"><a href="#top">Back to top</a></td>
+                    </tr>                                        
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2"><img src="<%= image_path('images/topbot_leftcol.gif') -%>" width="600" height="10" alt="" /></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <table class="texttopbottom" cellpadding="0" cellspacing="0" align="center" width="600">
+        <tr>
+          <td colspan="3" style="background: url(<%= image_path('images/bg_bottom.png') -%>) no-repeat;"><img src="<%= image_path('images/blank.gif') -%>" width="1" height="12" alt="" /></td>
+        </tr>
+        <tr>
+          <td rowspan="2"><img src="<%= image_path('images/blank.gif') -%>" width="15" height="1" alt="" /></td>
+          <td valign="top" align="center" style="font-family: Verdana, Arial, sans-serif; color: #8d9ca4;font-size: 10px;margin: 0;">
+                      <p>
+                          Do you know someone who might be interested in receiving this monthly newsletter?
+                          <forwardtoafriend>Forward this email to a friend</forwardtoafriend>. 
+                        </p>
+                        <p>
+                           Not interested anymore?  <unsubscribe>Unsubscribe Instantly</unsubscribe>.
+                        </p>
+                    </td>
+          <td rowspan="2"><img src="<%= image_path('images/blank.gif') -%>" width="15" height="1" alt="" /></td>
+        </tr>
+        <tr>
+          <td><img src="<%= image_path('images/blank.gif') -%>" width="570" height="8" alt="" /></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
